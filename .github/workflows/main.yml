@@ -37,7 +37,7 @@ jobs:
         shell: bash
         working-directory: src
         run: |
-          helm repo index ./temp --merge ../dest/index.yaml --url https://nir82.github.io/helm-repository/
+          helm repo index ./temp --merge ../dest/index.yaml --url https://nir82.github.io/helm-repository/helm
           mkdir -p ../dest/helm
           echo "Copying files..."
           shopt -s extglob
