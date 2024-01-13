@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  nimble-web-server:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2024-01-13T21:17:04.137360685Z"
+    description: A Helm chart to deploy nimble-web-server application into Kubernetes
+    digest: 27cfd5b1b9dcf5b4ddfdbc9ad944103b5e9125020670bec7e869956c9677a386
+    name: nimble-web-server
+    type: application
+    urls:
+    - https://nir82.github.io/helm-repository/helm/nimble-web-server-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-01-13T21:17:04.136871328Z"
